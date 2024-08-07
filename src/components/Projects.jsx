@@ -1,31 +1,86 @@
 import React from 'react';
 import ProjectSection from './ProjectSection';  // Garanta que este caminho esteja correto
+import peopleData from '../data/peopleData';
 
 // Array de dados dos projetos
 const projectsData = [
     {
         title: "Mão Robótica",
-        description: "Este é um projeto que utiliza robótica para criar uma mão mecânica controlada por sensores.",
-        imgSrc: "/imgs/lego/lego_snake.webp",
+        description: "[PLACEHOLDER]",
+        imgSrc: "/imgs/placeholder.png",
         imgAlt: "Mão Robótica",
         index: 0,
         images: [
             { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 1" },
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 2" },
             { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 2" }
         ]
     },
     {
-        title: "LEGO Mindstorms",
-        description: "Explore a engenharia e programação com LEGO Mindstorms.",
-        imgSrc: "/imgs/lego/lego_snake.webp",
-        imgAlt: "LEGO Mindstorms",
-        index: 1,
+        title: "Lego Mindstorms",
+        description: "[PLACEHOLDER]",
+        imgSrc: "/imgs/lego/legoev3logo.png",
+        imgAlt: "Mão Robótica",
+        index: 0,
         images: [
-            { src: "/path/to/image-lego1.jpg", alt: "Detalhe do LEGO Mindstorms 1" },
-            { src: "/path/to/image-lego2.jpg", alt: "Detalhe do LEGO Mindstorms 2" }
-        ]
+            { src: "/imgs/lego/lego_snake.webp", alt: "Detalhe da Mão Robótica 1" },
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 2" },
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 2" }
+        ],
+        people: peopleData
     },
-    // Adicione mais projetos conforme necessário
+    {
+        title: "Casinha de Bonecas",
+        description: "[PLACEHOLDER]",
+        imgSrc: "/imgs/placeholder.png",
+        imgAlt: "Mão Robótica",
+        index: 0,
+        images: [
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 1" },
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 2" },
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 2" }
+        ],
+        people: peopleData
+    },
+    {
+        title: "Reservatório de Água",
+        description: "[PLACEHOLDER]",
+        imgSrc: "/imgs/placeholder.png",
+        imgAlt: "Mão Robótica",
+        index: 0,
+        images: [
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 1" },
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 2" },
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 2" }
+        ],
+        people: peopleData
+    },
+    {
+        title: "Carrinho de Controle Remoto",
+        description: "[PLACEHOLDER]",
+        imgSrc: "/imgs/placeholder.png",
+        imgAlt: "Mão Robótica",
+        index: 0,
+        images: [
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 1" },
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 2" },
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 2" }
+        ],
+        people: peopleData
+    },
+    {
+        title: "Irrigador Inteligente",
+        description: "[PLACEHOLDER]",
+        imgSrc: "/imgs/placeholder.png",
+        imgAlt: "Mão Robótica",
+        index: 0,
+        images: [
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 1" },
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 2" },
+            { src: "/imgs/placeholder.png", alt: "Detalhe da Mão Robótica 2" }
+        ],
+        people: peopleData
+    }
 ];
 
 const Projects = () => {

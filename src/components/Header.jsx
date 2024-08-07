@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex justify-between items-center p-4 bg-primary shadow-md">
+    <header className="flex justify-between items-center p-4 bg-gradient-to-r from-primary to-primary-light shadow-md">
       <div className="flex items-center">
         <Image src="/imgs/logo-horizontal.png" alt="Logo" width={120} height={120} />
       </div>
@@ -52,7 +52,7 @@ const Header = () => {
           </li>
           <li>
             <Link href="#reservatorio-agua" legacyBehavior>
-              <a className="text-white font-bold hover:text-accent"> Reservatório de Água</a>
+              <a className="text-white font-bold hover:text-accent">Reservatório de Água</a>
             </Link>
           </li>
           <li>
