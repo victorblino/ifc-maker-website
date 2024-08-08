@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 
 const Header = () => {
@@ -36,34 +35,22 @@ const Header = () => {
       <nav className={`md:flex ${isMenuOpen ? 'block' : 'hidden'}`}>
         <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
           <li>
-            <Link href="#mao-robotica" legacyBehavior>
-              <a className="text-white font-bold hover:text-accent">Mão Robótica</a>
-            </Link>
+            <a href="#mao-robotica" className="text-white font-bold hover:text-accent">Mão Robótica</a>
           </li>
           <li>
-            <Link href="#lego-mindstorms" legacyBehavior>
-              <a className="text-white font-bold hover:text-accent">LEGO Mindstorms</a>
-            </Link>
+            <a href="#lego-mindstorms" className="text-white font-bold hover:text-accent">LEGO Mindstorms</a>
           </li>
           <li>
-            <Link href="#automacao-casinha" legacyBehavior>
-              <a className="text-white font-bold hover:text-accent">Casinha de Bonecas</a>
-            </Link>
+            <a href="#casinha-bonecas" className="text-white font-bold hover:text-accent">Casinha de Bonecas</a>
           </li>
           <li>
-            <Link href="#reservatorio-agua" legacyBehavior>
-              <a className="text-white font-bold hover:text-accent">Reservatório de Água</a>
-            </Link>
+            <a href="#reservatorio-agua" className="text-white font-bold hover:text-accent">Reservatório de Água</a>
           </li>
           <li>
-            <Link href="#carrinho-controle" legacyBehavior>
-              <a className="text-white font-bold hover:text-accent">Carrinho de Controle Remoto</a>
-            </Link>
+            <a href="#carrinho-controle" className="text-white font-bold hover:text-accent">Carrinho de Controle Remoto</a>
           </li>
           <li>
-            <Link href="#irrigador-inteligente" legacyBehavior>
-              <a className="text-white font-bold hover:text-accent">Irrigador Inteligente</a>
-            </Link>
+            <a href="#irrigador-inteligente" className="text-white font-bold hover:text-accent">Irrigador Inteligente</a>
           </li>
         </ul>
       </nav>
