@@ -24,7 +24,6 @@ além de um Arduino.]"
     id: "lego-mindstorms",
     title: "Lego Mindstorms",
     description: "[LEGO Mindstorms: Educação Tecnológica Facilitada
-      
       O LEGO Mindstorms é uma linha inovadora voltada para a Educação Tecnológica. Ele
   oferece uma experiência prática através de fluxogramas, diagramas de trabalho, um
   conjunto de construção e o software RoboLAB, projetado especialmente para
