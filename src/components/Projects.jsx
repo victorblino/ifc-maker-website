@@ -7,7 +7,10 @@ const projectsData = [
   {
     id: "mao-robotica",
     title: "Mão Robótica",
-    description: "[PLACEHOLDER]",
+    description: "[A mão robótica exemplifica a fusão de tecnologias da Indústria 4.0, 
+unindo robótica, visão computacional e inteligência artificial para realizar tarefas complexas 
+e se adaptar ao ambiente. Para sua construção, utilizaremos impressão 3D para as partes, 
+além de um Arduino.]" 
     imgSrc: "/imgs/placeholder.png",
     imgAlt: "Mão Robótica",
     index: 0,
@@ -20,7 +23,18 @@ const projectsData = [
   {
     id: "lego-mindstorms",
     title: "Lego Mindstorms",
-    description: "[PLACEHOLDER]",
+    description: "[LEGO Mindstorms: Educação Tecnológica Facilitada
+      
+      O LEGO Mindstorms é uma linha inovadora voltada para a Educação Tecnológica. Ele
+  oferece uma experiência prática através de fluxogramas, diagramas de trabalho, um
+  conjunto de construção e o software RoboLAB, projetado especialmente para
+  automatizar dispositivos.
+     A estrutura do conjunto inclui um roteador que emite raios infravermelhos e se
+  conecta a um computador via USB ou Bluetooth. Para programar e utilizar o sistema, é
+  necessário instalar os seguintes softwares: NXT, Matlab, Simulink, nxt0SEK e LeJoS NXJ (Java).
+    Este sistema é um controlador lógico-programável que possui um microprocessador
+  de 32 bits e uma interface de programação simples, compatível tanto com PC quanto
+  com Mac. O conjunto contém 612 peças, permitindoopção de personalizar os sons de cada um deles.]",
     imgSrc: "/imgs/lego/legoev3logo.png",
     imgAlt: "Lego Mindstorms",
     index: 1,
