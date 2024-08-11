@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectSection from './ProjectSection';  // Garanta que este caminho esteja correto
+import ProjectSection from './ProjectSection'; // Garanta que este caminho esteja correto
 import peopleData from '../data/peopleData';
 
 // Array de dados dos projetos
@@ -7,10 +7,7 @@ const projectsData = [
   {
     id: "mao-robotica",
     title: "Mão Robótica",
-    description: "[A mão robótica exemplifica a fusão de tecnologias da Indústria 4.0, 
-unindo robótica, visão computacional e inteligência artificial para realizar tarefas complexas 
-e se adaptar ao ambiente. Para sua construção, utilizaremos impressão 3D para as partes, 
-além de um Arduino.]" 
+    description: "A mão robótica exemplifica a fusão de tecnologias da Indústria 4.0, unindo robótica, visão computacional e inteligência artificial para realizar tarefas complexas e se adaptar ao ambiente. Para sua construção, utilizaremos impressão 3D para as partes, além de um Arduino.", 
     imgSrc: "/imgs/placeholder.png",
     imgAlt: "Mão Robótica",
     index: 0,
@@ -23,17 +20,7 @@ além de um Arduino.]"
   {
     id: "lego-mindstorms",
     title: "Lego Mindstorms",
-    description: "[LEGO Mindstorms: Educação Tecnológica Facilitada
-      O LEGO Mindstorms é uma linha inovadora voltada para a Educação Tecnológica. Ele
-  oferece uma experiência prática através de fluxogramas, diagramas de trabalho, um
-  conjunto de construção e o software RoboLAB, projetado especialmente para
-  automatizar dispositivos.
-     A estrutura do conjunto inclui um roteador que emite raios infravermelhos e se
-  conecta a um computador via USB ou Bluetooth. Para programar e utilizar o sistema, é
-  necessário instalar os seguintes softwares: NXT, Matlab, Simulink, nxt0SEK e LeJoS NXJ (Java).
-    Este sistema é um controlador lógico-programável que possui um microprocessador
-  de 32 bits e uma interface de programação simples, compatível tanto com PC quanto
-  com Mac. O conjunto contém 612 peças, permitindoopção de personalizar os sons de cada um deles.]",
+    description: `O projeto utilizou o LEGO Mindstorms EV3 através da plataforma LEGO Education para criar os robôs "R3PTAR" e "EV3RSTORM". Com 612 peças, sensores e um processador de 32 bits, o kit permitiu a construção e programação dos robôs usando o software LEGO Education EV3, compatível com PC e Mac.`,
     imgSrc: "/imgs/lego/legoev3logo.png",
     imgAlt: "Lego Mindstorms",
     index: 1,

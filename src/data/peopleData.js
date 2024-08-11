@@ -26,9 +26,8 @@ const peopleData = {
         github: "kamuz-01"
       },
       {
-        name: "Aluno 4",
-        photo: "/path/to/student2-photo.jpg",
-        email: "student3@example.com"
+        name: "João Victor Messias",
+        photo: "/imgs/people/messias.jpg",
       },
       {
         name: "Aluno 5",
