@@ -41,10 +41,7 @@ const Header = () => {
             <a href="#lego-mindstorms" className="text-white font-bold hover:text-accent">LEGO Mindstorms</a>
           </li>
           <li>
-            <a href="#casinha-bonecas" className="text-white font-bold hover:text-accent">Casinha de Bonecas</a>
-          </li>
-          <li>
-            <a href="#reservatorio-agua" className="text-white font-bold hover:text-accent">Reservatório de Água</a>
+            <a href="#residencial-inteligente" className="text-white font-bold hover:text-accent">Residencial Inteligente</a>
           </li>
           <li>
             <a href="#carrinho-controle" className="text-white font-bold hover:text-accent">Carrinho de Controle Remoto</a>
