@@ -30,14 +30,12 @@ const peopleData = {
         photo: "/imgs/people/messias.jpg",
       },
       {
-        name: "Aluno 5",
-        photo: "/path/to/student2-photo.jpg",
-        email: "student3@example.com"
+        name: "Yonara A.R. Ogliari",
+        photo: "/imgs/people/yonara.jpg",
       },
       {
-        name: "Aluno 6",
-        photo: "/path/to/student2-photo.jpg",
-        email: "student3@example.com"
+        name: "Luiz Gustavo Silva dos Santos",
+        photo: "/imgs/people/luiz.jpg",
       }
     ]
   };

@@ -13,18 +13,25 @@ const ProjectSection = ({ id, title, description, imgSrc, imgAlt, index, images 
           width={500}
           height={300}
           className="object-cover rounded-lg"
+          onError={(e) => {
+            console.error(`Error loading image: ${e.target.src}`);
+          }}
         />
       );
     } else if (media.type === 'video') {
       return (
-        <video
-          controls
-          width="500"
-          className="object-cover rounded-lg"
-        >
-          <source src={media.src} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <div className="video-container">
+          <video
+            controls
+            width="100%" // Tamanho padrão do vídeo
+            max-width="800px" // Tamanho máximo do vídeo
+            height="auto" // Altura automática
+            className="object-cover rounded-lg"
+          >
+            <source src={media.src} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       );
     }
   };
@@ -39,6 +46,9 @@ const ProjectSection = ({ id, title, description, imgSrc, imgAlt, index, images 
             width={650} 
             height={650} 
             className="rounded-lg"
+            onError={(e) => {
+              console.error(`Error loading image: ${e.target.src}`);
+            }}
           />
         </div>
         <div className="flex flex-col justify-center items-center text-center w-full md:w-1/2 md:items-start md:text-left">
@@ -59,7 +69,7 @@ const ProjectSection = ({ id, title, description, imgSrc, imgAlt, index, images 
           ))}
         </div>
       </div>
-      <div className="w-full my-8 border-b-4 border-gray-600 pt-24"></div>
+      <div className="w-full my-8 border-b-4 border-gray-600 pt-24" aria-hidden="true"></div>
     </section>
   );
 };

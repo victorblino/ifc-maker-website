@@ -1,8 +1,7 @@
 import React from 'react';
-import ProjectSection from './ProjectSection'; // Garanta que este caminho esteja correto
+import ProjectSection from './ProjectSection'; 
 import peopleData from '../data/peopleData';
 
-// Array de dados dos projetos
 const projectsData = [
   {
     id: "mao-robotica",
@@ -39,11 +38,11 @@ const projectsData = [
     id: "residencial-inteligente",
     title: "Residencial Inteligente",
     description: `Um residencial inteligente com caixa de água utilizando Arduino é um sistema que integra tecnologia e automação para otimizar o uso da água em uma residência. Com a ajuda de sensores e atuadores conectados a uma placa Arduino, é possível monitorar e controlar a caixa de água de maneira eficiente.`,
-    imgSrc: "/imgs/placeholder.png",
-    imgAlt: "[Placeholder]",
+    imgSrc: "/imgs/residencial-inteligente/image1.jpg",
+    imgAlt: "Imagem que mostra o residencial inteligente",
     index: 1,
     images: [
-      // 
+      { type: 'image', src: "/imgs/residencial-inteligente/image1.jpg", alt: "Residencial  Inteligente" },
     ],
     people: peopleData
   },
