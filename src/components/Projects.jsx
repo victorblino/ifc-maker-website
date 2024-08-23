@@ -7,7 +7,7 @@ const projectsData = [
     id: "mao-robotica",
     title: "Mão Robótica",
     description: "A mão robótica exemplifica a fusão de tecnologias da Indústria 4.0, unindo robótica, visão computacional e inteligência artificial para realizar tarefas complexas e se adaptar ao ambiente. Para sua construção, utilizaremos impressão 3D para as partes, além de um Arduino.", 
-    imgSrc: "/imgs/placeholder.png",
+    imgSrc: "/imgs/mao-robotica/image1.jpg",
     imgAlt: "Mão Robótica",
     index: 0,
     images: [
