@@ -7,7 +7,7 @@ const projectsData = [
     id: "mao-robotica",
     title: "Mão Robótica",
     description: "A mão robótica exemplifica a fusão de tecnologias da Indústria 4.0, unindo robótica, visão computacional e inteligência artificial para realizar tarefas complexas e se adaptar ao ambiente. Para sua construção, utilizaremos impressão 3D para as partes, além de um Arduino.", 
-    imgSrc: "/imgs/mao-robotica/image1.jpg",
+    imgSrc: "/imgs/mao-robotica/image2.jpg",
     imgAlt: "Mão Robótica",
     index: 0,
     images: [
@@ -15,7 +15,9 @@ const projectsData = [
       { type: 'video', src: "/videos/mao-robotica/video2.mp4", alt: "Vídeo da Mão Robótica em ação" },
       { type: 'video', src: "/videos/mao-robotica/video3.mp4", alt: "Vídeo da Mão Robótica em ação" },
       { type: 'video', src: "/videos/mao-robotica/video4.mp4", alt: "Vídeo da Mão Robótica em ação" },
-      { type: 'video', src: "/videos/mao-robotica/video5.mp4", alt: "Vídeo da Mão Robótica em ação" }
+      { type: 'video', src: "/videos/mao-robotica/video5.mp4", alt: "Vídeo da Mão Robótica em ação" },
+      { type: 'image', src: "/imgs/mao-robotica/image1.jpg", alt: "Vídeo da Mão Robótica em ação" },
+      { type: 'image', src: "/imgs/mao-robotica/image3.jpg", alt: "Vídeo da Mão Robótica em ação" }
     ]
   },
   {
