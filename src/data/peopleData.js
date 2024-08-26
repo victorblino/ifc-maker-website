@@ -41,7 +41,7 @@ const peopleData = {
         linkedin: 'lgsantos31415'
       },
       {
-        name: "Nicolly Maria",
+        name: "Nicolly Maria Rodrigues",
         photo: "/imgs/people/nicolly.jpg",
         email: 'nicollymariarodrigues@gmail.com',
         instagram: 'nicollymariarodrigues',
