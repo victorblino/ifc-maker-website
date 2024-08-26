@@ -36,6 +36,9 @@ const peopleData = {
       {
         name: "Luiz Gustavo Silva dos Santos",
         photo: "/imgs/people/luiz.jpg",
+        email: 'guga.santos0810@gmail.com',
+        github: 'lgsantos31415',
+        linkedin: 'lgsantos31415'
       }
     ]
   };

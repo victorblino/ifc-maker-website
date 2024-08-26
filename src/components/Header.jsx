@@ -49,6 +49,9 @@ const Header = () => {
           <li>
             <a href="#irrigador-inteligente" className="text-white font-bold hover:text-accent">Irrigador Inteligente</a>
           </li>
+          <li>
+            <a href="#catraca-auto" className="text-white font-bold hover:text-accent">Catraca Automática</a>
+          </li>
         </ul>
       </nav>
     </header>

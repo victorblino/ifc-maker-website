@@ -23,9 +23,9 @@ const ProjectSection = ({ id, title, description, imgSrc, imgAlt, index, images 
         <div className="video-container">
           <video
             controls
-            width="100%" // Tamanho padrão do vídeo
-            max-width="800px" // Tamanho máximo do vídeo
-            height="auto" // Altura automática
+            width="100%"
+            max-width="800px" 
+            height="auto" 
             className="object-cover rounded-lg"
           >
             <source src={media.src} type="video/mp4" />
@@ -51,7 +51,7 @@ const ProjectSection = ({ id, title, description, imgSrc, imgAlt, index, images 
             }}
           />
         </div>
-        <div className="flex flex-col justify-center items-center text-center w-full md:w-1/2 md:items-start md:text-left">
+        <div className="flex flex-col justify-center items-center text-center w-full md:w-1/2 md:text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             {title}
           </h2>

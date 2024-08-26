@@ -62,14 +62,27 @@ const projectsData = [
     id: "irrigador-inteligente",
     title: "Irrigador Inteligente",
     description: `Um irrigador inteligente com Arduino é um sistema automatizado projetado para otimizar a irrigação de plantas, utilizando sensores e a programação de microcontroladores. Com esse sistema, é possível monitorar a umidade do solo e as condições climáticas em tempo real, garantindo que as plantas recebam a quantidade adequada de água, sem desperdícios.`,
-    imgSrc: "/imgs/placeholder.png",
+    imgSrc: "/imgs/irrigador-inteligente/image3.jpg",
     imgAlt: "[Placeholder]",
     index: 1,
     images: [
-      // 
+      { type: 'image', src: "/imgs/irrigador-inteligente/image1.jpg"},
+      { type: 'image', src: "/imgs/irrigador-inteligente/image2.jpg"},
     ],
     people: peopleData
   },
+  {
+    id: "catraca-auto",
+    title: "Catraca Automática",
+    description: 'Uma catraca automática para passagem de veículos com uso de TAG e cartão em Arduino é um sistema de controle que utiliza um microcontrolador Arduino para gerenciar a abertura de uma barreira com base na leitura de um sensor RFID (para TAGs) e/ou um leitor de cartão. O sistema foi programado para permitir ou restringir o acesso de veículos, acionando um motor ou servo para abrir a catraca quando a identificação for válida. É uma solução eficiente para controle de acesso em estacionamentos ou áreas restritas.',
+    imgSrc: "/imgs/catraca-auto/image1.jpg",
+    imgAlt: "Imagem que mostra a catraca automática",
+    index: 1,
+    images: [
+      { type: 'image', src: "/imgs/catraca-auto/image2.jpg"},
+      { type: 'image', src: "/imgs/catraca-auto/image3.jpg"}
+    ]
+  }
 ];
 
 const Projects = () => {
