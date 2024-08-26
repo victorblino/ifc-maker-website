@@ -84,7 +84,20 @@ const projectsData = [
       { type: 'image', src: "/imgs/catraca-auto/image2.jpg"},
       { type: 'image', src: "/imgs/catraca-auto/image3.jpg"}
     ]
-  }
+  },
+  {
+    id: "casinha-bonecas",
+    title: "Casinha de Bonecas",
+    description: `Uma casinha de bonecas com Arduino é um projeto de automação que`,
+    imgSrc: "/imgs/casinha-bonecas/image2.jpg",
+    imgAlt: "Imagem que mostra a casinha de bonecas",
+    index: 1,
+    images: [
+      { type: 'image', src: "/imgs/casinha-bonecas/image1.jpg",  alt: "Imagem que mostra a casinha de bonecas" },
+      { type: 'image', src: "/imgs/casinha-bonecas/image3.jpg",  alt: "Imagem que mostra a casinha de bonecas" },
+      { type: 'image', src: "/imgs/casinha-bonecas/image4.jpg",  alt: "Imagem que mostra a casinha de bonecas" },
+    ]
+  },
 ];
 
 const Projects = () => {

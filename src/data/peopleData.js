@@ -39,6 +39,13 @@ const peopleData = {
         email: 'guga.santos0810@gmail.com',
         github: 'lgsantos31415',
         linkedin: 'lgsantos31415'
+      },
+      {
+        name: "Nicolly Maria",
+        photo: "/imgs/people/nicolly.jpg",
+        email: 'nicollymariarodrigues@gmail.com',
+        instagram: 'nicollymariarodrigues',
+        linkedin: 'nicollyribeirorodrigues'
       }
     ]
   };
