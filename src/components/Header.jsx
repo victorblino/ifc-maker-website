@@ -55,6 +55,9 @@ const Header = () => {
           <li>
             <a href="#casinha-bonecas" className="text-white font-bold hover:text-accent">Casinha de Bonecas</a>
           </li>
+          <li>
+            <a href="#arduwind" className="text-white font-bold hover:text-accent">Arduwind</a>
+          </li>
         </ul>
       </nav>
     </header>

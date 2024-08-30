@@ -46,6 +46,11 @@ const peopleData = {
         email: 'nicollymariarodrigues@gmail.com',
         instagram: 'nicollymariarodrigues',
         linkedin: 'nicollyribeirorodrigues'
+      },
+      {
+        name: "Marcelly",
+        photo: "/imgs/people/marcelly.jpg",
+
       }
     ]
   };

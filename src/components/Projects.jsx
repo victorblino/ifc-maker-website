@@ -98,6 +98,28 @@ const projectsData = [
       { type: 'image', src: "/imgs/casinha-bonecas/image4.jpg",  alt: "Imagem que mostra a casinha de bonecas" },
     ]
   },
+  {
+    id: "arduwind",
+    title: "ArduWind: Iluminação Sustentável",
+    description: `Visa demonstrar o potencial da energia eólica em sistemas de iluminação simples e eficientes. Utilizando um gerador eólico conectado a um motor de corrente contínua, o projeto capta a energia do vento para acender e apagar LEDs, representando diferentes intensidades de luz. Controlado por um Arduino, o sistema simula o impacto da variação na velocidade do vento sobre a iluminação, proporcionando uma abordagem prática e educativa sobre energias renováveis e automação. Ideal para quem busca entender e aplicar conceitos de energia sustentável e tecnologia de controle.`,
+    imgSrc: "/imgs/arduwind/image10.jpg",
+    imgAlt: "Imagem que mostra o projeto",
+    index: 1,
+    images: [
+      { type: 'image', src: "/imgs/arduwind/image1.jpg",  alt: "Imagem que mostra o projeto" },
+      { type: 'image', src: "/imgs/arduwind/image2.jpg",  alt: "Imagem que mostra o projeto" },
+      { type: 'image', src: "/imgs/arduwind/image3.jpg",  alt: "Imagem que mostra o projeto" },
+      { type: 'image', src: "/imgs/arduwind/image4.jpg",  alt: "Imagem que mostra o projeto" },
+      { type: 'image', src: "/imgs/arduwind/image5.jpg",  alt: "Imagem que mostra o projeto" },
+      { type: 'image', src: "/imgs/arduwind/image6.jpg",  alt: "Imagem que mostra o projeto" },
+      { type: 'image', src: "/imgs/arduwind/image7.jpg",  alt: "Imagem que mostra o projeto" },
+      { type: 'image', src: "/imgs/arduwind/image8.jpg",  alt: "Imagem que mostra o projeto" },
+      { type: 'image', src: "/imgs/arduwind/image9.jpg",  alt: "Imagem que mostra o projeto" },
+      { type: 'video', src: "/videos/arduwind/video1.mp4",  alt: "Vídeo que mostra o projeto" },
+      { type: 'video', src: "/videos/arduwind/video2.mp4",  alt: "Vídeo que mostra o projeto" },
+      { type: 'video', src: "/videos/arduwind/video3.mp4",  alt: "Vídeo que mostra o projeto" },
+    ]
+  }
 ];
 
 const Projects = () => {
