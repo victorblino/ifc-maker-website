@@ -48,9 +48,9 @@ const peopleData = {
         linkedin: 'nicollyribeirorodrigues'
       },
       {
-        name: "Marcelly",
+        name: "Marcelly Vitória de Oliveira",
         photo: "/imgs/people/marcelly.jpg",
-
+        email: "Marcellyvitoria601@gmail.com"
       }
     ]
   };
